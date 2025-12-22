@@ -1,0 +1,15 @@
+2025-12-17 19:40:52 - DEBUG - Addition operation performed: 10 + 5 = 15
+2025-12-17 19:40:52 - DEBUG - subtracting operation performed: 10 - 5 = 15
+2025-12-17 19:40:52 - DEBUG - Multiplying operation performed: 10 * 5 = 15
+2025-12-17 19:40:52 - DEBUG - Dividing operation performed: 10 / 0 = 10
+2025-12-17 19:40:52 - DEBUG - Dividing operation performed: 10 / 2 = 12
+2025-12-17 19:43:35 - DEBUG - Addition operation performed: 10 + 5 = 15
+2025-12-17 19:43:35 - DEBUG - subtracting operation performed: 10 - 5 = 15
+2025-12-17 19:43:35 - DEBUG - Multiplying operation performed: 10 * 5 = 15
+2025-12-17 19:43:35 - DEBUG - Dividing operation performed: 10 / 0 = 10
+2025-12-17 19:43:35 - DEBUG - Dividing operation performed: 10 / 2 = 12
+2025-12-17 19:47:08 - ArithmethicApp -DEBUG - Addition operation performed: 10 + 5 = 15
+2025-12-17 19:47:08 - ArithmethicApp -DEBUG - subtracting operation performed: 10 - 5 = 15
+2025-12-17 19:47:08 - ArithmethicApp -DEBUG - Multiplying operation performed: 10 * 5 = 15
+2025-12-17 19:47:08 - ArithmethicApp -DEBUG - Dividing operation performed: 10 / 0 = 10
+2025-12-17 19:47:08 - ArithmethicApp -DEBUG - Dividing operation performed: 10 / 2 = 12

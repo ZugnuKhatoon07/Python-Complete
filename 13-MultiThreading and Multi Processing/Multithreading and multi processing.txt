@@ -1,0 +1,76 @@
+_________________Multi Threding Multi Processing______________
+1). Program
+2). Processing
+3). Threads
+4). Examples of Process and Threads
+
+1). Program => A program is a sequence of Instructions written in 
+               programming language [Eg:- Python, C++]
+
+   Ex:- Google chrome -> .exc <- program -> Browser shoud work
+            word
+            excel
+
+2). A process is simply an instance of a program that is being exrcuted 
+ 
+
+                                                              __________________________________________                                      
+                                                             | code       | Data     |                  |
+                                                             | sagiment   | segment  |     Heap         |
+                                                             |____________|__________|__________________|                                         
+                                                             |                   |                      |
+                                                             |    stack          |      Register        |
+                                                             |___________________|______________________|                                          
+                                                             |                                          |
+                                                             |                                          |
+                                                             |                                          |
+                                                             |                                          |
+                                                             |_ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _|
+
+ Seperate Memory space
+ (*) One process cannot corropt another process [Resoursec]
+
+ (*) I/O Requerments
+ (*) ----> Increased excution time to switch between process
+
+ Ex:- Browser
+  excel => process -> Increased
+  App => process 
+
+
+3) Thread :- Athread is a init of execution within a process
+
+
+                                                                Single Threaded Process
+                                                              __________________________________________                                      
+                                                             | code       | Data     |                  |
+                                                             | sagiment   | segment  |     Heap         |
+                                                             |____________|__________|__________________|                                         
+                                                             |                   |                      |
+                                                             |    stack          |      Register        |
+                                                             |___________________|______________________|                                          
+                                                             |                                          |
+                                                             |                                          |
+                                                             |                                          |
+                                                             |                                          |
+                                                             |_ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _| 
+ex :- Ms Paint ---> open ----> Box
+      ||
+      \/
+      Process
+
+
+4) Multi Threaded Process
+
+                                                              __________________________________________                                       
+                                                             | code       | Data     |                  |
+                                                             | sagiment   | segment  |     Heap         |
+                                                             |____________|__________|__________________|                                         
+                                                             |        |          |         |            |
+                                                             |   stack|Register  |stack    |  Register  |     
+                                                             |________|__________|_________|____________|                                          
+                                                             |                   |                      |
+                                                             |                   |                      |
+                                                             |                   |                      |
+                                                             |                   |                      |
+                                                             |_ _ _ _ _ _ _ _ _ _| _ _ _ _ _ _ _ _ _ _ _|                

@@ -1,0 +1,73 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "logger",
+        "description": "logger",
+        "isExtraImport": true,
+        "detail": "logger",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "logs.test",
+        "description": "logs.test",
+        "peekOfCode": "def add(a, b):\n    logging.debug(\"The addtion operation is taking place\")\n    return a + b\nlogging.debug(\"Starting the addition operation\")\nadd( 10, 15 )",
+        "detail": "logs.test",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def add(a, b):\n    result=a+b\n    logger.debug(f\"Addition operation performed: {a} + {b} = {result}\")\n    return result\ndef subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):\n    result=a+b",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):\n    result=a+b\n    logger.debug(f\"Multiplying operation performed: {a} * {b} = {result}\")\n    return result\ndef divide(a, b):\n    try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def multiply(a, b):\n    result=a+b\n    logger.debug(f\"Multiplying operation performed: {a} * {b} = {result}\")\n    return result\ndef divide(a, b):\n    try:\n        result=a+b\n        logger.debug(f\"Dividing operation performed: {a} / {b} = {result}\")\n        return result\n    except ZeroDivisionError:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def divide(a, b):\n    try:\n        result=a+b\n        logger.debug(f\"Dividing operation performed: {a} / {b} = {result}\")\n        return result\n    except ZeroDivisionError:\n        logger.error(\"Division by zero attempted\")\n        return None\nadd(10, 5)\nsubtract(10, 5)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "logger = logging.getLogger(\"ArithmethicApp\")\ndef add(a, b):\n    result=a+b\n    logger.debug(f\"Addition operation performed: {a} + {b} = {result}\")\n    return result\ndef subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):",
+        "detail": "app",
+        "documentation": {}
+    }
+]

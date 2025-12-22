@@ -1,0 +1,90 @@
+[
+    {
+        "label": "*",
+        "importPath": "package.maths",
+        "description": "package.maths",
+        "isExtraImport": true,
+        "detail": "package.maths",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "importPath": "package.subpackage.mult",
+        "description": "package.subpackage.mult",
+        "isExtraImport": true,
+        "detail": "package.subpackage.mult",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "kind": 2,
+        "importPath": "answer assiment.math",
+        "description": "answer assiment.math",
+        "peekOfCode": "def sqrt(x):\n    return x**0.5\ndef sin(x):\n    return math.sin(math.radians(x))\ndef pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:",
+        "detail": "answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "kind": 2,
+        "importPath": "answer assiment.math",
+        "description": "answer assiment.math",
+        "peekOfCode": "def sin(x):\n    return math.sin(math.radians(x))\ndef pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):",
+        "detail": "answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "pow",
+        "kind": 2,
+        "importPath": "answer assiment.math",
+        "description": "answer assiment.math",
+        "peekOfCode": "def pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b",
+        "detail": "answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "answer assiment.math",
+        "description": "answer assiment.math",
+        "peekOfCode": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a",
+        "detail": "answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "answer assiment.math",
+        "description": "answer assiment.math",
+        "peekOfCode": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a",
+        "detail": "answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "package.subpackage.mult",
+        "description": "package.subpackage.mult",
+        "peekOfCode": "def multiply(a,b):\n    return a*b",
+        "detail": "package.subpackage.mult",
+        "documentation": {}
+    },
+    {
+        "label": "addition",
+        "kind": 2,
+        "importPath": "package.maths",
+        "description": "package.maths",
+        "peekOfCode": "def addition(a,b):\n    return a+b\ndef subtraction(a,b):\n    return a-b",
+        "detail": "package.maths",
+        "documentation": {}
+    },
+    {
+        "label": "subtraction",
+        "kind": 2,
+        "importPath": "package.maths",
+        "description": "package.maths",
+        "peekOfCode": "def subtraction(a,b):\n    return a-b",
+        "detail": "package.maths",
+        "documentation": {}
+    }
+]
