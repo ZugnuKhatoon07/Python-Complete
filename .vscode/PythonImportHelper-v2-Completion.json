@@ -1,11 +1,250 @@
 [
     {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "importPath": "logger",
+        "description": "logger",
+        "isExtraImport": true,
+        "detail": "logger",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "package.maths",
+        "description": "package.maths",
+        "isExtraImport": true,
+        "detail": "package.maths",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "importPath": "package.subpackage.mult",
+        "description": "package.subpackage.mult",
+        "isExtraImport": true,
+        "detail": "package.subpackage.mult",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "12-Logging in python.logs.test",
+        "description": "12-Logging in python.logs.test",
+        "peekOfCode": "def add(a, b):\n    logging.debug(\"The addtion operation is taking place\")\n    return a + b\nlogging.debug(\"Starting the addition operation\")\nadd( 10, 15 )",
+        "detail": "12-Logging in python.logs.test",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "12-Logging in python.app",
+        "description": "12-Logging in python.app",
+        "peekOfCode": "def add(a, b):\n    result=a+b\n    logger.debug(f\"Addition operation performed: {a} + {b} = {result}\")\n    return result\ndef subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):\n    result=a+b",
+        "detail": "12-Logging in python.app",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "12-Logging in python.app",
+        "description": "12-Logging in python.app",
+        "peekOfCode": "def subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):\n    result=a+b\n    logger.debug(f\"Multiplying operation performed: {a} * {b} = {result}\")\n    return result\ndef divide(a, b):\n    try:",
+        "detail": "12-Logging in python.app",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "12-Logging in python.app",
+        "description": "12-Logging in python.app",
+        "peekOfCode": "def multiply(a, b):\n    result=a+b\n    logger.debug(f\"Multiplying operation performed: {a} * {b} = {result}\")\n    return result\ndef divide(a, b):\n    try:\n        result=a+b\n        logger.debug(f\"Dividing operation performed: {a} / {b} = {result}\")\n        return result\n    except ZeroDivisionError:",
+        "detail": "12-Logging in python.app",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "12-Logging in python.app",
+        "description": "12-Logging in python.app",
+        "peekOfCode": "def divide(a, b):\n    try:\n        result=a+b\n        logger.debug(f\"Dividing operation performed: {a} / {b} = {result}\")\n        return result\n    except ZeroDivisionError:\n        logger.error(\"Division by zero attempted\")\n        return None\nadd(10, 5)\nsubtract(10, 5)",
+        "detail": "12-Logging in python.app",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "12-Logging in python.app",
+        "description": "12-Logging in python.app",
+        "peekOfCode": "logger = logging.getLogger(\"ArithmethicApp\")\ndef add(a, b):\n    result=a+b\n    logger.debug(f\"Addition operation performed: {a} + {b} = {result}\")\n    return result\ndef subtract(a, b):\n    result=a+b\n    logger.debug(f\"subtracting operation performed: {a} - {b} = {result}\")\n    return result\ndef multiply(a, b):",
+        "detail": "12-Logging in python.app",
+        "documentation": {}
+    },
+    {
+        "label": "print_numbers",
+        "kind": 2,
+        "importPath": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "description": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "peekOfCode": "def print_numbers():\n    for i in range(5):\n        time.sleep(2)\n        print(f\"Number: {i}\")\ndef print_letter():\n    for letter in \"abcde\":\n        time.sleep(2)\n        print(f\"Letter: {letter}\")\n## create 2 threads\nt1=threading.Thread(target=print_numbers)",
+        "detail": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "print_letter",
+        "kind": 2,
+        "importPath": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "description": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "peekOfCode": "def print_letter():\n    for letter in \"abcde\":\n        time.sleep(2)\n        print(f\"Letter: {letter}\")\n## create 2 threads\nt1=threading.Thread(target=print_numbers)\nt2=threading.Thread(target=print_letter)\nt=time.time()\n## start the threads\nt1.start()",
+        "detail": "13-MultiThreading and Multi Processing.13.2-multithreading",
+        "documentation": {}
+    },
+    {
+        "label": "square_numbers",
+        "kind": 2,
+        "importPath": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "description": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "peekOfCode": "def square_numbers():\n    for i in range(5):\n        time.sleep(1)\n        print(f\"Square: {i * i}\")\ndef cube_numbers():\n    for i in range(5):\n        time.sleep(1.5)\n        print(f\"Square: {i * i * i}\")\nif __name__==\"__main__\":\n    ## create 2 processes",
+        "detail": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "cube_numbers",
+        "kind": 2,
+        "importPath": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "description": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "peekOfCode": "def cube_numbers():\n    for i in range(5):\n        time.sleep(1.5)\n        print(f\"Square: {i * i * i}\")\nif __name__==\"__main__\":\n    ## create 2 processes\n    p1=multiprocessing.Process(target=square_numbers)\n    p2=multiprocessing.Process(target=cube_numbers)\n    t=time.time()\n    # start the process",
+        "detail": "13-MultiThreading and Multi Processing.13.3-multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "square_number",
+        "kind": 2,
+        "importPath": "13-MultiThreading and Multi Processing.13.4- advance_multi_threading",
+        "description": "13-MultiThreading and Multi Processing.13.4- advance_multi_threading",
+        "peekOfCode": "def square_number(number):\n    time.sleep(1)\n    return f\"Square: {number * number}\"\nnumbers=[1,2,3,4,5,6,7,8,9,10,12,36,35]\nif __name__==\"__main__\":\n    with ProcessPoolExecutor(max_workers=3) as executor:\n        results=executor.map(square_number ,numbers)\n    for result in results:\n        print(result)",
+        "detail": "13-MultiThreading and Multi Processing.13.4- advance_multi_threading",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "kind": 2,
+        "importPath": "5-Modules.answer assiment.math",
+        "description": "5-Modules.answer assiment.math",
+        "peekOfCode": "def sqrt(x):\n    return x**0.5\ndef sin(x):\n    return math.sin(math.radians(x))\ndef pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:",
+        "detail": "5-Modules.answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "kind": 2,
+        "importPath": "5-Modules.answer assiment.math",
+        "description": "5-Modules.answer assiment.math",
+        "peekOfCode": "def sin(x):\n    return math.sin(math.radians(x))\ndef pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):",
+        "detail": "5-Modules.answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "pow",
+        "kind": 2,
+        "importPath": "5-Modules.answer assiment.math",
+        "description": "5-Modules.answer assiment.math",
+        "peekOfCode": "def pow(base, exp):\n    return base ** exp\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b",
+        "detail": "5-Modules.answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "5-Modules.answer assiment.math",
+        "description": "5-Modules.answer assiment.math",
+        "peekOfCode": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\ndef gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a",
+        "detail": "5-Modules.answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "gcd",
+        "kind": 2,
+        "importPath": "5-Modules.answer assiment.math",
+        "description": "5-Modules.answer assiment.math",
+        "peekOfCode": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a",
+        "detail": "5-Modules.answer assiment.math",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "5-Modules.package.subpackage.mult",
+        "description": "5-Modules.package.subpackage.mult",
+        "peekOfCode": "def multiply(a,b):\n    return a*b",
+        "detail": "5-Modules.package.subpackage.mult",
+        "documentation": {}
+    },
+    {
+        "label": "addition",
+        "kind": 2,
+        "importPath": "5-Modules.package.maths",
+        "description": "5-Modules.package.maths",
+        "peekOfCode": "def addition(a,b):\n    return a+b\ndef subtraction(a,b):\n    return a-b",
+        "detail": "5-Modules.package.maths",
+        "documentation": {}
+    },
+    {
+        "label": "subtraction",
+        "kind": 2,
+        "importPath": "5-Modules.package.maths",
+        "description": "5-Modules.package.maths",
+        "peekOfCode": "def subtraction(a,b):\n    return a-b",
+        "detail": "5-Modules.package.maths",
         "documentation": {}
     }
 ]
